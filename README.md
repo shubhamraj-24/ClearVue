@@ -40,11 +40,11 @@ The AI model I employed was a variation of the VGG16 model, meticulously trained
 ## Result
 
 UI for input & output 
- ![Image](https://github.com/Kunj-Pate1/ClearVue/blob/main/output%20imgs/input.png) 
+ ![Image](https://github.com/Kunj-Pate1/Discern/blob/main/output%20imgs/input.png) 
 | Pneumonia | Tuberculosis |
 | --- | --- |
-| ![Image 1](https://github.com/Kunj-Pate1/ClearVue/blob/main/output%20imgs/pneumonia.png) | ![Image 2](https://github.com/Kunj-Pate1/ClearVue/blob/main/output%20imgs/tuber.png) |
+| ![Image 1](https://github.com/Kunj-Pate1/Discern/blob/main/output%20imgs/pneumonia.png) | ![Image 2](https://github.com/Kunj-Pate1/Discern/blob/main/output%20imgs/tuber.png) |
 
 | Covid | Normal |
 | --- | --- |
-| ![Image 3](https://github.com/Kunj-Pate1/ClearVue/blob/main/output%20imgs/covid.png) | ![Image 4](https://github.com/Kunj-Pate1/ClearVue/blob/main/output%20imgs/normal.png) |
+| ![Image 3](https://github.com/Kunj-Pate1/Discern/blob/main/output%20imgs/covid.png) | ![Image 4](https://github.com/Kunj-Pate1/Discern/blob/main/output%20imgs/normal.png) |
