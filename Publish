@@ -1,0 +1,23 @@
+How to Access Publisher Logs for a Given REC ID and Breaksheet ID
+
+1. Identify the Cluster for the Given REC IDs
+   Query the config database to determine which cluster is associated with the provided REC IDs.
+
+2. Locate the Publisher Configuration
+   Once you have the cluster name, go to the Harmony Reconciliation Classic Config repository.
+   Search for the YAML file named: <clusterName>_publisher.yaml
+
+3. Find the Publisher for the Given BS IDs
+   Open the YAML and search for the specified BS IDs.
+   Note the publisher name under which these BS IDs are listed.
+
+4. Connect to the Publisher Host
+   Using Keep Alive:
+   - Connect to the identified cluster.
+   - Then connect to the host where the noted publisher is running.
+
+5. Access and Review Logs
+   Navigate to the log directory on the host.
+   Use grep with the BS IDs to search within the logs.
+   Example:
+   grep "<BS_ID>" publisher.log
